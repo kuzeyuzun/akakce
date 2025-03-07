@@ -13,7 +13,6 @@
 # Sürüm: 2.40
 # Son Güncelleme: 2025-03-06 15:30:00 UTC
 # Geliştirici: Kuzey Uzun
-# Geliştirici Desteği: GitHub Copilot & Claude AI
 # Mevcut Kullanıcı: seydauzun
 ############################################################
 
@@ -62,7 +61,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # Ana URL yapılandırması
 DOMAIN = "https://www.akakce.com"
 CATEGORY = "televizyon"
-BRAND = "Next"  # Boş bırakılırsa tüm markalar listelenir
+BRAND = "LG"  # Boş bırakılırsa tüm markalar listelenir
 
 # Base URL'i oluştur
 BASE_URL = f"{DOMAIN}/{CATEGORY}/{BRAND}" if BRAND else f"{DOMAIN}/{CATEGORY}"
